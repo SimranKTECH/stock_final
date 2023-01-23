@@ -1,0 +1,64 @@
+.container
+{
+    
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+.navbar-brand{
+    background-color: whitesmoke;
+}
+
+table, th, td {
+    border:1px solid black;
+  }
+#navbarSupportedContent{
+    background-color: whitesmoke;
+    width: 101%;
+    margin-left: 0%;
+}
+
+.navbar-default .navbar-brand .blue
+{
+    color: #537fbe;
+}
+.navbar-default .navbar-brand .red
+{
+    color: #ea433b;
+}
+.navbar-default .navbar-brand .yellow
+{
+    color: #f5b82e;
+}
+.navbar-default .navbar-brand .green
+{
+    color: #2e944b;
+}
+.table
+{
+        max-width: 800px;
+        margin: auto;
+}
+
+main .form-control
+{
+    
+    display: inline-block;
+
+    
+    width: auto;
+}
+
+main img
+{
+   
+    max-width: 100%;
+}
+
+main td
+{
+   
+    text-align: left;
+}
+
+ 
