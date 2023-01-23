@@ -1,0 +1,26 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    History
+{% endblock %}
+
+{% block main %}
+    <div class="container">
+        <table class="table table-striped">
+            <tr>
+                <th>Timestamp(UTC) of Transaction</th>
+                <th>Stock Symbol</th>
+                <th>Qty. of Shares</th>
+                <th>Share Price</th>
+            </tr>
+            {% for stock in stock_trans %}
+                <tr>
+                    <td>{{ stock['tstamp'] }}</td>
+                    <td>{{ stock['symbol'].upper() }}</td>
+                    <td>{{ stock['units'] }}</td>
+                    <td>{{ stock['cost'] }}</td>
+                </tr>
+            {% endfor %}
+        </table>
+    </div>
+{% endblock %}
