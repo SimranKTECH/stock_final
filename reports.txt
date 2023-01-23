@@ -1,0 +1,11 @@
+1. to print all the stock transaction of user with username = "shree"
+#join users anf stock_transaction
+
+select users.username, stock_transaction.transaction_id, 
+
+2. to print all the bank transaction with username = "kaur"
+#join users and bank_transaction
+3. to print portfolio with username = "shree"
+#join users and stock_transaction
+4. to print user details whose username = "qwerty".
+#join login and user_data 
